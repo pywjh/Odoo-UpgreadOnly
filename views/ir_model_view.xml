@@ -1,0 +1,14 @@
+<odoo>
+    <data>
+        <record id="UpgradeOnlyForm" model="ir.ui.view">
+            <field name="name">应用操作视图继承</field>
+            <field name="model">ir.module.module</field>
+            <field name="inherit_id" ref="base.module_form" />
+            <field name="arch" type="xml">
+                <button name="button_immediate_upgrade" position="after">
+                    <button name="button_immediate_upgrade_only" states="installed" string="升级当前模块" type="object" class="btn btn-primary"/>
+                </button>
+            </field>
+        </record>
+    </data>
+</odoo>
