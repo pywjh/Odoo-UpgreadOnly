@@ -9,7 +9,7 @@
     """,
     'author': "wjh",
     'website': "cdn.openerp.hk",
-    'category': '福人',
+    'category': '',
     'version': '0.1',
     'depends': [
 
